@@ -112,4 +112,5 @@ resource "vault_pki_secret_backend_role" "default" {
   locality           = ["Overijssel"]
   max_ttl            = 63113904
   ttl                = 2592000
+  key_bits           = 4096
 }
